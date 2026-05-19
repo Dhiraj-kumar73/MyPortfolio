@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dhiraj Kumar | Frontend Developer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Dhiraj Kumar, a professional Frontend Developer and BCA student specialized in modern web architectures and UI/UX design.">
+    <meta name="keywords"
+        content="Dhiraj Kumar, Frontend Developer, Web Developer, BCA Student, Patna, Bihar, Portfolio, UI/UX Designer">
+    <meta name="author" content="Dhiraj Kumar">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourportfolio.com/">
+    <meta property="og:title" content="Dhiraj Kumar | Frontend Architect & UI/UX Specialist">
+    <meta property="og:description"
+        content="Portfolio of Dhiraj Kumar, a professional Frontend Developer specialized in modern web architectures and elite UI/UX design.">
+    <meta property="og:image" content="https://yourportfolio.com/dhiraj.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourportfolio.com/">
+    <meta property="twitter:title" content="Dhiraj Kumar | Frontend Architect">
+    <meta property="twitter:description" content="Portfolio of Dhiraj Kumar, specialized in modern web architectures.">
+    <meta property="twitter:image" content="https://yourportfolio.com/dhiraj.jpg">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Particles Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div id="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <a href="#home" class="logo">Port<span>folio.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-btns">
+            <i class='fas fa-moon' id="theme-toggle"></i>
+        </div>
+
+    </header>
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="home-content" data-reveal="left">
+            <h3>Hi, I am</h3>
+            <h1>Dhiraj <span class="text-gradient">Kumar</span></h1>
+            <h3 class="typing-text">Frontend Architect</h3>
+            <p>
+                Specialized in building high-performance web architectures and immersive user experiences. Transforming
+                complex ideas into elegant, recruiter-ready solutions.
+            </p>
+            <div class="btn-group">
+                <a href="#contact" class="btn btn-primary">Hire Me <i class="fas fa-arrow-right"></i></a>
+                <a href="resume.html" class="btn btn-outline">Get Resume</a>
+            </div>
+        </div>
+
+        <div class="home-img" data-reveal="right">
+            <img src="assets/images/dhiraj.jpg" alt="Dhiraj Kumar" loading="lazy">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-img" data-reveal="left">
+                <div class="img-box glass-card">
+                    <img src="assets/images/about.png" alt="Dhiraj Kumar">
+                    <div class="img-badge">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>BCA STUDENT</span>
+                    </div>
+                </div>
+                <div class="decorative-circle"></div>
+            </div>
+
+            <div class="about-content" data-reveal="right">
+                <h2 class="section-title text-left mb-20">About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p>
+                    I am a driven <strong>BCA (Bachelor of Computer Applications) student currently in my 5th semester</strong>,
+                    specializing in modern frontend architectures and high-performance web solutions. My academic
+                    journey has provided me with a robust understanding of computer science fundamentals, while my
+                    personal passion drives me to master the latest industry-standard technologies.
+                </p>
+                <p>
+                    I thrive at the intersection of design and logic, crafting immersive user experiences that are as
+                    functional as they are visually stunning. With a focus on clean code and scalable design, I am
+                    committed to delivering digital products that truly resonate with users and solve complex problems.
+                </p>
+
+
+                <div class="about-btns flex gap-20 mt-30">
+                    <a href="#contact" class="btn btn-primary">Let's Talk <i class="fas fa-paper-plane"></i></a>
+                    <a href="#projects" class="btn btn-outline">View Work <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <h2 class="section-title" data-reveal>My <span>Services</span></h2>
+
+        <div class="service-container">
+            <!-- Card 1 -->
+            <div class="service-flip-card" data-reveal="bottom">
+                <div class="service-card-inner">
+                    <div class="service-card-front glass-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Creating clean, fast, and modern websites using the latest technologies.</p>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3>Tech I Use</h3>
+                        <ul>
+                            <li>React.js & JavaScript</li>
+                            <li>HTML5 & CSS3</li>
+                            <li>Modern UI Frameworks</li>
+                        </ul>
+                        <a href="#contact" class="btn">Start Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="service-flip-card" data-reveal="bottom">
+                <div class="service-card-inner">
+                    <div class="service-card-front glass-card">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing beautiful and easy-to-use interfaces in Figma.</p>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3>My Process</h3>
+                        <ul>
+                            <li>User-Friendly Layouts</li>
+                            <li>Modern Visual Design</li>
+                            <li>Prototyping in Figma</li>
+                        </ul>
+                        <a href="#contact" class="btn">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="service-flip-card" data-reveal="bottom">
+                <div class="service-card-inner">
+                    <div class="service-card-front glass-card">
+                        <i class="fas fa-display"></i>
+                        <h3>Responsive Web</h3>
+                        <p>Ensuring your website looks perfect on mobile and desktop.</p>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3>Quality</h3>
+                        <ul>
+                            <li>Mobile-First Design</li>
+                            <li>Cross-Device Testing</li>
+                            <li>Pixel-Perfect Layouts</li>
+                        </ul>
+                        <a href="#contact" class="btn">Check Mobile</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="service-flip-card" data-reveal="bottom">
+                <div class="service-card-inner">
+                    <div class="service-card-front glass-card">
+                        <i class="fas fa-gauge-high"></i>
+                        <h3>Web Optimization</h3>
+                        <p>Making your website fast and easy to find on Google.</p>
+                    </div>
+                    <div class="service-card-back glass-card">
+                        <h3>Performance</h3>
+                        <ul>
+                            <li>Fast Loading Speed</li>
+                            <li>SEO Best Practices</li>
+                            <li>Clean Code Structure</li>
+                        </ul>
+                        <a href="#contact" class="btn">Boost Speed</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2 class="section-title" data-reveal>My <span>Projects</span></h2>
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project-box glass-card" data-reveal="bottom" data-title="Elite Portfolio"
+                data-description="A high-performance personal portfolio built with a focus on User Experience, featuring glassmorphism, custom animations, and real-time data integration. Designed to showcase technical expertise to recruiters."
+                data-tech="HTML, CSS, JavaScript, Particles.js"
+                data-img="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop"
+                data-live="#" data-github="https://github.com/dhirajkumar">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop"
+                    alt="Portfolio Website">
+                <div class="project-info">
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>Modern personal portfolio with animations and glassmorphism.</p>
+                    <div class="project-btns">
+                        <button class="btn view-details">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-box glass-card" data-reveal="bottom" data-title="TechEraX Hub"
+                data-description="A comprehensive All India University Portal providing real-time access to syllabus, notes, and academic resources for 100+ universities. Built for scale and speed."
+                data-tech="HTML, CSS, JS, Portal Engine"
+                data-img="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
+                data-live="./all-india/index.html" data-github="https://github.com/dhirajkumar">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
+                    alt="TechEraX Hub">
+                <div class="project-info">
+                    <div class="tech-tags">
+                        <span>Portal</span>
+                        <span>Academic</span>
+                    </div>
+                    <h3>TechEraX Hub</h3>
+                    <p>All India University Syllabus & Notes Portal.</p>
+                    <div class="project-btns">
+                        <button class="btn view-details">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-box glass-card" data-reveal="bottom" data-title="Nexus Task Manager"
+                data-description="A productivity tool designed to help teams organize tasks and collaborate in real-time. Features include drag-and-drop task boards, priority levels, and progress tracking."
+                data-tech="JavaScript, Firebase, CSS Grid"
+                data-img="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop"
+                data-live="https://example.com" data-github="https://github.com">
+                <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop"
+                    alt="To-Do App">
+                <div class="project-info">
+                    <div class="tech-tags">
+                        <span>JavaScript</span>
+                        <span>Firebase</span>
+                    </div>
+                    <h3>Nexus Task Manager</h3>
+                    <p>Efficient task management system with real-time updates.</p>
+                    <div class="project-btns">
+                        <button class="btn view-details">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="view-all-container" data-reveal="bottom">
+            <a href="projects.html" class="btn btn-outline">
+                <span>View All Projects</span>
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </section>
+
+
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2 class="section-title" data-reveal>My <span>Skills</span></h2>
+
+        <div class="skills-category-container">
+            <!-- Frontend -->
+            <div class="skills-category" data-reveal="bottom">
+                <h3>Frontend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skills-category" data-reveal="bottom">
+                <h3>Tools & Frameworks</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-npm"></i>
+                        <span>NPM</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend/Languages -->
+            <div class="skills-category" data-reveal="bottom">
+                <h3>Backend & Core</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code-branch"></i>
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-fire"></i>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js-square"></i>
+                        <span>Express.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tech Stack Marquee (Redesigned) -->
+        <div class="skills-marquee-container" data-reveal="bottom">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <div class="tech-item"><i class="fab fa-react"></i> React</div>
+                    <div class="tech-item"><i class="fab fa-node-js"></i> Node.js</div>
+                    <div class="tech-item"><i class="fab fa-java"></i> Java</div>
+                    <div class="tech-item"><i class="fas fa-database"></i> MySQL</div>
+                    <div class="tech-item"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="tech-item"><i class="fas fa-database"></i> SQL</div>
+                    <div class="tech-item"><i class="fab fa-figma"></i> Figma</div>
+                    <div class="tech-item"><i class="fab fa-sass"></i> Sass</div>
+                    <!-- Duplicate for infinite effect -->
+                    <div class="tech-item"><i class="fab fa-react"></i> React</div>
+                    <div class="tech-item"><i class="fab fa-node-js"></i> Node.js</div>
+                    <div class="tech-item"><i class="fab fa-java"></i> Java</div>
+                    <div class="tech-item"><i class="fas fa-database"></i> MySQL</div>
+                    <div class="tech-item"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="tech-item"><i class="fas fa-database"></i> SQL</div>
+                    <div class="tech-item"><i class="fab fa-figma"></i> Figma</div>
+                    <div class="tech-item"><i class="fab fa-sass"></i> Sass</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Certifications -->
+    <section class="certificates" id="certificates">
+        <h2 class="section-title" data-reveal>My <span>Certifications</span></h2>
+        <div class="certificates-container">
+            <div class="cert-card glass-card" data-reveal="bottom">
+                <div class="cert-img">
+                    <img src="assets/images/cert-kyp.jpg" alt="KYP Certificate">
+                </div>
+                <div class="cert-info">
+                    <h3>Kushal Yuva Program (KYP)</h3>
+                    <p>Certification in IT Literacy, Language Skills, and Soft Skills with high proficiency.</p>
+                    <span class="cert-date">Bihar Skill Development Mission</span>
+                </div>
+            </div>
+
+            <div class="cert-card glass-card" data-reveal="bottom">
+                <div class="cert-img">
+                    <img src="assets/images/cert-cultural.jpg" alt="Cultural Program Winner">
+                </div>
+                <div class="cert-info">
+                    <h3>Cultural Program Winner</h3>
+                    <p>Certificate of Appreciation for winning the Saraswati Puja Cultural Program.</p>
+                    <span class="cert-date">Himalaya College of Prof. Education</span>
+                </div>
+            </div>
+
+            <div class="cert-card glass-card" data-reveal="bottom">
+                <div class="cert-img">
+                    <img src="assets/images/cert-rangoli.jpg"
+                        alt="Rangoli Competition Winner">
+                </div>
+                <div class="cert-info">
+                    <h3>Rangoli Competition Winner</h3>
+                    <p>Awarded for creative excellence and artistic skill in the college Rangoli competition.</p>
+                    <span class="cert-date">Himalaya College of Prof. Education</span>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-container" data-reveal="bottom">
+            <a href="certificates.html" class="btn btn-outline">
+                <span>View All Certifications</span>
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-container" data-reveal="bottom">
+            <div class="contact-info">
+                <h2 class="section-title">Let's <span>Connect</span></h2>
+                <p>I'm currently looking for new opportunities. My inbox is always open!</p>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email Me</h4>
+                        <p>yadavdhirajkumar944@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-location-dot"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Patna, Bihar, India</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/dhirajkumar" target="_blank" rel="noopener noreferrer" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dhiraj-kumar-yadav-073075387?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/DhirajKumay75" target="_blank" rel="noopener noreferrer" title="Twitter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/dhirajkumaryadav554?igsh=NThkaWFwc2xvOGR0" target="_blank"
+                        rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form-card glass-card">
+                <form action="https://formspree.io/f/meenlapp" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="send-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-header-img">
+                    <img id="modal-image" src="" alt="Project Image">
+                </div>
+                <div class="modal-details">
+                    <div class="modal-info-header">
+                        <h3 id="modal-title">Project Title</h3>
+                        <div id="modal-tags" class="tech-tags"></div>
+                    </div>
+
+                    <p id="modal-description" class="modal-description">Detailed description goes here...</p>
+
+                    <div class="modal-features-grid">
+                        <div class="feature-box">
+                            <i class="fas fa-rocket"></i>
+                            <h4>Performance</h4>
+                            <p>Optimized for high-speed loading and efficiency.</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="fas fa-mobile-screen"></i>
+                            <h4>Responsive</h4>
+                            <p>Seamlessly works across all device sizes.</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="fas fa-code-branch"></i>
+                            <h4>Scalable</h4>
+                            <p>Built with modular, clean, and reusable code.</p>
+                        </div>
+                    </div>
+
+                    <div class="modal-btns">
+                        <a href="#" id="modal-live" class="btn">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" id="modal-github" class="btn btn-outline">Source Code <i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="modal cert-modal">
+        <div class="modal-content cert-modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body cert-modal-body">
+                <div class="cert-modal-img">
+                    <img id="modal-cert-img" src="" alt="Full Certificate">
+                </div>
+                <div class="cert-modal-info">
+                    <h3 id="modal-cert-title">Certificate Title</h3>
+                    <p id="modal-cert-desc">Detailed description goes here...</p>
+                    <a href="#" id="modal-cert-download" download class="btn btn-primary">
+                        <span>Download Copy</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#home" id="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <div class="logo">Port<span>folio.</span></div>
+                <p>Passionate <strong>BCA student</strong> and Frontend Developer focused on creating elite web experiences.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/dhirajkumar" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dhiraj-kumar-yadav-073075387?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/DhirajKumay75" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/dhirajkumaryadav554?igsh=NThkaWFwc2xvOGR0" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Live Info</h3>
+                <div class="live-info">
+                    <p><i class="fas fa-location-dot"></i> Patna, Bihar, India</p>
+                    <p id="live-time">
+                        <span id="time-icon"></span>
+                        <span id="time-text">Loading time...</span>
+                    </p>
+                    <div class="status-indicator">
+                        <span class="dot"></span>
+                        <span>Available for work</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Dhiraj Kumar | Crafted with <i class="fas fa-heart text-red"></i></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
